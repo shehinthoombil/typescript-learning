@@ -120,7 +120,30 @@
 // getStatus("12345",StatusType.COMPLETED)
 
 //as const
-let userName = "shehin" as const;
-userName = "shehin";
+// let userName = "shehin" as const;
+// userName = "shehin";
 
 //any/unknown/never/void/null
+
+// let value: any = 5;
+// value = "Hello";
+// value = true;
+
+// let value: unknown = "Hello";
+
+// if (typeof value === "string") {
+//     console.log(value.toUpperCase()); // OK
+// }
+
+// function throwError(): never {
+//     throw new Error("Something went wrong!");
+// }
+
+// function greet(): void {
+//     console.log("Hello!");
+// }
+
+// let name: string | null = null;
+// name = "Shehin";
+
+
